@@ -1,1 +1,64 @@
+id: test
 
+match:
+  unicode: "\u070F"
+
+size: 9
+
+images:
+  background:
+    texture: minecraft:textures/gui/container/furnace.png
+    x: 0
+    y: 1
+
+  slot_overlay:
+    texture: minecraft:textures/gui/sprites/container/slot.png
+    x: 150
+    y: 18
+
+labels:
+  title:
+    text: "&6GUI Overhaul Test"
+    x: 8
+    y: 6
+
+  level:
+    text: "&aLevel: &f%slot_0%.coins"
+    x: 8
+    y: 42
+
+  price:
+    text: "&bPrice: &f%slot_0%.rank"
+    x: 8
+    y: 54
+
+  seller:
+    text: "&dSeller: &f%slot_0%.level"
+    x: 8
+    y: 66
+
+slots:
+  # Metadata (hidden)
+  "0":
+    x: -1000
+    y: -1000
+
+  # Furnace input
+  "1":
+    x: 56
+    y: 18
+
+  # Furnace fuel
+  "2":
+    x: 56
+    y: 54
+
+  # Furnace output
+  "3":
+    x: 116
+    y: 36
+
+  # Extra test slots
+
+options:
+  draw_player_inventory: true
