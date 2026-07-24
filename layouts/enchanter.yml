@@ -1,0 +1,38 @@
+id: enchanter_menu
+
+match:
+  title:
+    starts_with: "𐀀"
+
+images:
+  background:
+    texture: minecraft:textures/gui/container/furnace.png
+    x: 0
+    y: -17
+
+labels:
+  title:
+    text: " "
+    x: 8
+    y: 6
+
+slots:
+  "0":  { x: 8,   y: 18 }
+  "1":  { x: 26,  y: 18 }
+  "2":  { x: 44,  y: 18 }
+  "3":  { x: 62,  y: 18 }
+  "4":  { x: 80,  y: 18 }
+  "5":  { x: 98,  y: 18 }
+  "6":  { x: 116, y: 18 }
+  "7":  { x: 134, y: 18 }
+  "8":  { x: 152, y: 18 }
+
+  "9":  { x: 8,   y: 36 }
+  "10": { x: 26,  y: 36 }
+  "11": { x: 44,  y: 36 }
+  "12": { x: 62,  y: 36 }
+  "13": { x: 80,  y: 36 }
+  "14": { x: 98,  y: 36 }
+  "15": { x: 116, y: 36 }
+  "16": { x: 134, y: 36 }
+  "17": { x: 152, y: 36 }
